@@ -4,10 +4,10 @@
 mongodb:
   auth:
     enabled: true
-    rootUser: 'schoolapp'
-    rootPassword: 'mongoRootPass'
+    rootUser: "schoolapp"
+    rootPassword: "mongoRootPass"
 
 schoolapp-api:
   vault:
-    status: 'kv_static_injector_template_file'
-    kind: 'injector'
+    status: "disable"
+    kind: "disable"
